@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/858240256.svg)](https://doi.org/10.5281/zenodo.14975580)
+
 ## Evaluating Sequence and Structural Similarity Metrics for Predicting Shared Paralog Functions
 
 This repository contains the data processing, dataset construction, analysis code, and feature evaluations for the paper titled: **Evaluating Sequence and Structural Similarity Metrics for Predicting Shared Paralog Functions**, currently *in preparation*.
