@@ -2,7 +2,7 @@
 
 This repository contains the data processing, dataset construction, analysis code, and feature evaluations for the paper titled: **Evaluating Sequence and Structural Similarity Metrics for Predicting Shared Paralog Functions**, currently *in preparation*.
 
-The main datasets, along with all computed paralog pair features, can be found in the `./data` directory.
+The main datasets, along with some example of computed paralog pair features, can be found in the `./data` directory. All datasets, labels, and predictions are fully available on: [https://zenodo.org/records/14973633](https://zenodo.org/records/14973633)
 
 
 
@@ -26,10 +26,11 @@ Scripts in `./compute_features` are used to compute all sequence similarity feat
 
 Main notebooks used to build the four datasets (PPI-SL X Yeast-Human), analyze their contents, explore the relationships between the features, and evaluate the predictive power of individual and combined features on these datasets.
 
+
 | Notebook                               | Figures                 | Brief description                                        |
 |:---------------------------------------|:------------------------|:---------------------------------------------------------|
 | 1a_human_prepare_datasets.ipynb        | Fig. 3B, 4B, 5B         | Analyse features relationships in all human paralog pairs & build PPI and SL dataset for human paralog pairs |
 | 1b_yeast_prepare_datasets.ipynb        | Fig. S1                 | Analyse features relationships in all yeast paralog pairs & build PPI and SL dataset for yeast paralog pairs |
 | 2_datasets_overlap.ipynb               | Fig. 2                  | Analyse overlaps between PPI-SL labels   |
-| 3_evaluate_features.ipynb              | Fig. 3, 4, 5, 6, S2     | Evaluate individual and combined features on the four datasets   |
-
+| 3_evaluate_features.ipynb              | Fig. 3, 4, 5, 6, S2-S6     | Evaluate individual and combined features on the four datasets   |
+| 4_make_predictions.ipynb               |                          | Make predictions for all datasets/classifiers combination (available on [zenodo](https://zenodo.org/records/14973633))   |
